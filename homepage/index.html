@@ -3,41 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/homepage/css/estilo.css" />
-    <link rel="stylesheet" type="text/css" href="/homepage/css/reset.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="shortcut icon" href="img/rocket_icon-icons.com_54375.ico" />
     <title>ACME</title>
 </head>
 <body>
     <header class="header">
         <a href="index.html"><h1 class="logo"></h1></a>
-        <ul>
-            <li>Portifolio</li>
-            <li>team</li>
-            <li>contact</li>
-            <li>login</li>
-        </ul>
+        <div class="header-list">
+            <ul class="header-list-itens">
+                <li class="header-list-portifolio"><a href="#">Portifolio</a></li>
+                <li class="header-list-team"><a href="#">team</a></li>
+                <li class="header-list-contact"><a href="#">contact</a></li>
+                <li class="header-list-login"><a href="#"></a>login</li>
+            </ul>
+        </div>
     </header>
 
     <section class="section-input">
-        <h1>Buscar Vagas</h1>      
+        <div>
+            
+        </div>
+        <h1 class="section-input-title">Buscar Vagas</h1> 
+        <form action=" " method="post">
+            <div class="container-section-input">  
+                <input type="search" id="search1" name="q">
+                <button type="submit-section-input">Buscar</button>
+            </div>
+        </form>     
     </section>
     <section class="section-form">
                 <div class="section-form-filtros">                
-                    <h3 class="title-filtro">Filtros</h3>
                     <div class="container-contrato">
+                        <h3 class="title-filtro">Filtros</h3>
                         <h3 class="title-contrato">Tipo de Contrato</h3>
-                        <ul>
-                            <button>CLT</button>
-                            <button>PJ</button>
-                            <button>STAG</button>
+                        <ul class="section-form-list">
+                            <button class="button-list">CLT</button>
+                            <button class="button-list">PJ</button>
+                            <button class="button-list">STAG</button>
                         </ul>
                     </div>
                     <div class="container-nivel">
                         <h3 class="title-contrato">Nível</h3>
-                        <ul>
-                            <button>Júnior</button>
-                            <button>Pleno</button>
-                            <button>Sênior</button>
+                        <ul class="section-form-list">
+                            <button class="button-list">Júnior</button>
+                            <button class="button-list">Pleno</button>
+                            <button class="button-list">Sênior</button>
                         </ul>
                     </div>
                     <div class="container-input">
@@ -55,11 +67,13 @@
                         </form>
                     </div>
                 </div>              
-                <div class="section-form-ibm">
-                    <h3 class="section-form-title">IBM</h3>   
-                    <h3 class="section-form-subtitle">Lorem ipsum</h3>
-                    <p class="section-form-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="section-form-tellium">
+                    <h3 class="section-form-title">IBM</h3> 
+                    <div class="section-form-content">
+                        <h3 class="section-form-subtitle">Lorem ipsum</h3>
+                        <p class="section-form-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>  
                     <ul class="section-form-list">
                         <li class="form-list">São Paulo</li>
                         <li class="form-list">CLT</li>
@@ -67,16 +81,20 @@
                     </ul>
                 </div>
         
-                <div class="section-form-Tellium">
-                    <h3 class="section-form-title">Tellium</h3>   
-                    <h3 class="section-form-subtitle">Lorem ipsum</h3>
-                    <p class="section-form-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    <ul class="section-form-list">
-                        <li class="form-list">Campinas</li>
-                        <li class="form-list">PJ</li>
-                        <li class="form-list">Sênior</li>
-                    </ul>
+                <div class="section-form-tellium">
+                    <div class="content-tellium">
+                        <h3 class="section-form-title">Tellium</h3>
+                        <div class="section-form-content">
+                            <h3 class="section-form-subtitle">Lorem ipsum</h3>
+                            <p class="section-form-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                        <ul class="section-form-list">
+                            <li class="form-list">Campinas</li>
+                            <li class="form-list">PJ</li>
+                            <li class="form-list">Sênior</li>
+                        </ul>
+                    </div>
                 </div>
     </section>
 

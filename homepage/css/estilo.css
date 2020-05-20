@@ -1,7 +1,6 @@
 .header {
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
+  height: 95px;
+
 }
 
 .logo {
@@ -9,4 +8,73 @@
     height: 56px;
     float: left;
     background: url(../img/logo-acme.png) center center/56px no-repeat;
+}
+
+
+.section-input{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    height: 30rem   ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-form { 
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.section-form-filtros {
+    background: yellowgreen;
+    width: 30%;
+    text-align: center;
+}
+
+.title-contrato {
+    text-align: left;
+}
+
+
+.button-list 
+
+.section-form-ibm { 
+    background-color: white;
+    width: 30%;
+}
+
+.section-form-tellium {
+    background-color: white;
+    width: 30%;
+}
+
+.section-form-title {
+    background-color: black;
+    color: white;
+    padding: 25px 40px;
+}
+
+.section-form-content {
+    background-color: white;
+    padding: 15px 40px 15px;
+}
+
+.section-form-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 10px;
+}
+
+.section-form-list {
+    padding: 15px 40px 15px;
+    
+}
+
+.form-list {
+    padding: 15px;
+    border-top: solid 1px  gray;
+    font-weight: 600;
 }

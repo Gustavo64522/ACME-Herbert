@@ -3,24 +3,18 @@
   justify-content: space-between;
 }
 
-.header-list-itens {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header-list {
-    padding-right: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-}
-
 .logo {
     width: 100px;
     height: 70px;
     display: flex;
     align-items: center;
     padding-left: 30px;
+}
+
+.header-list-itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #icon {
@@ -30,6 +24,11 @@
    height: 35px;
 }
 
+.header-list {
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
 
 .section-input{
     color: white;
@@ -48,6 +47,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container-section-input {
+    display: flex;
+}
+
 .button-section-input {
     background-color: #363636;
     font-size: 15px;
@@ -55,32 +58,6 @@
     padding: 14px 40px;
     border-radius: 2px;
     cursor: pointer;
-}
-
-.container-input {
-    width: 100%;
-    margin-top: 38px;
-}
-
-.button-list-input {
-    width: 30%;
-    color: white;
-    background-color: #363636;  
-    border-radius: 2px;
-    cursor: pointer;
-}
-
-.container-section-input {
-    display: flex;
-}
-
-.container-input-form {
-    display: flex;
-    padding-bottom: 10px;
-}
-
-.search {
-    width: 70%;
 }
 
 .section-form { 
@@ -92,14 +69,12 @@
 .section-form-filtros {
     width: 30%;
     text-align: center;
-    padding: 0 4rem;
-    
+    padding: 0 4rem;    
 }
 
 .title-contrato {
     text-align: left;
-    padding: 12px 0;
-    
+    padding: 12px 0;    
 }
 
 .title-filtro{
@@ -120,6 +95,27 @@
     padding: 12px;
     border-radius: 2px;
     cursor: pointer;
+}
+.container-input {
+    width: 100%;
+    margin-top: 38px;
+}
+
+.button-list-input {
+    width: 30%;
+    color: white;
+    background-color: #363636;  
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.container-input-form {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.search {
+    width: 70%;
 }
 
 .section-form-ibm {   
@@ -160,11 +156,13 @@
 .footer {
     display: flex;
 }
+
 .footer-list {
     display: flex;
     cursor: pointer;
     padding-left: 112px;
 }
+
 .logo-footer {
     margin: 0 auto;
 }
